@@ -5,61 +5,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Batman</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header>
-    <img src="./img/Batman.png" alt="imagen de Batman con Batiseñal" width="100%">
+    <img src="./img/Batman2.png" alt="imagen de Batman dibujo animado">
   </header>
   <main>
     <h1>CURRICULUM VITAE DE BRUCE WAYNE</h1>
-    <section>
+    <section class="datos_personales">
       <h2>DATOS PERSONALES</h2>
-      <ul>
-        <li><b>Nombre Completo: </b>Bruce Wayne</li>
-        <li><b>Fecha de nacimiento: </b>01/05/1939</li>
-        <li><b>Lugar de nacimiento: </b>Gotham City</li>
+      <ul class="padding-1">
+        <li>
+          <span class="italica-negrita"> Nombre Completo: </span>Bruce Wayne
+        </li>
+        <li>
+          <span class="italica-negrita">Fecha de nacimiento: </span>01/05/1939
+        </li>
+        <li>
+          <span class="italica-negrita">Lugar de nacimiento: </span>Gotham City
+        </li>
       </ul>
     </section>
     <section>
-      <h2>HABILIDADES</h2>
-      <ol>
-        <li>Volar en <u>batimóvil</u></li>
-        <li>Desaparecer <u>misteriosamente</u></li>
-        <li>tener gadgets geniales</li>
-      </ol>
-    </section>
-    <section>
       <h2>FORMACION ACADEMICA</h2>
-      <dl>
-        <dt><b>1956-1961: </b></dt>
-        <dd>Universidad de espantapájaros</dd>
-        <dd>Licenciatura en Aeronáutica</dd>
-        <dt><b>1952-1956:</b></dt>
-        <dd>Secundario Gotham</dd>
-        <dd>Bachiller con especialización en trucos</dd>
+      <dl class="padding-1">
+        <dt><span class="negrita">1956-1961: </span>
+          <span>Universidad de espantapájaros</span>
+        </dt>
+        <dd><span class="sangria">Licenciatura en Aeronáutica</span></dd>
+        <dt><span class="negrita">1952-1956:</span> <span>Secundario Gotham</span>
+        </dt>
+        <dd><span class="sangria">Bachiller con especialización en trucos</span></dd>
       </dl>
     </section>
     <section>
       <h2>EXPERIENCIA LABORAL</h2>
-      <dl>
-        <dt><b>1975-1985: </b></dt>
-        <dd>Desocupado</dd>
-        <dd>Sin trabajo porque se rompió el batimóvil</dd>
-        <dt><b>1975-1965: </b></dt>
-        <dd>Cazavillanos y demás chusma</dd>
-        <dd>Atrapé a Gatúbela y a Joker. A Víctor Fries lo dejé porque se me congeló la capa</dd>
-        <dt><b>1962-1965: </b></dt>
-        <dd>Aprendiz de superhéroe</dd>
-        <dd>Hice pasantía con Superman. Opeté por usar máscara porque no pude aprender a peinarme el rulo</dd>
+      <dl class="padding-1">
+        <dt><span class="negrita">1975-1985: </span><span>Desocupado</span></dt>
+        <dd><span class="sangria">Sin trabajo porque se rompió el batimóvil</span></dd>
+        <dt><span class="negrita">1955-1975: </span><span>Desocupado</span></dt>
+        <dd> <span class="sangria"></span>Cazavillanos y demás chusma</dd>
+        <dd><span class="sangria">Atrapé a Gatúbela y a Joker. A Víctor Fries lo dejé porque se me congeló la
+            capa</span></dd>
+        <dt><span class="negrita">1962-1965: </span><span>Aprendiz de superhéroe</span></dd>
+        <dd><span class="sangria">Hice pasantía con Superman. Opeté por usar máscara porque no pude aprender a peinarme
+            el rulo</span></dd>
       </dl>
     </section>
-    <section>
-      <h2>REFERENCIAS</h2>
-      <p>Disponible bajo petición ¡Pero asegurate de que no sean de Joker!</p>
-    </section>
   </main>
-  <footer style="text-align: center;"><b>810 - BATMAN</b></footer>
+  <footer>
+    <div class="alinear_footer">
+      <span>810 - BATMAN </span>
+      <span class="padding-2"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><svg
+            width="25" height="25" fill="#fff" viewBox="0 0 32 32" id="Camada_1" version="1.1" xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <path
+                  d="M22.3,8.4c-0.8,0-1.4,0.6-1.4,1.4c0,0.8,0.6,1.4,1.4,1.4c0.8,0,1.4-0.6,1.4-1.4C23.7,9,23.1,8.4,22.3,8.4z">
+                </path>
+                <path
+                  d="M16,10.2c-3.3,0-5.9,2.7-5.9,5.9s2.7,5.9,5.9,5.9s5.9-2.7,5.9-5.9S19.3,10.2,16,10.2z M16,19.9c-2.1,0-3.8-1.7-3.8-3.8 c0-2.1,1.7-3.8,3.8-3.8c2.1,0,3.8,1.7,3.8,3.8C19.8,18.2,18.1,19.9,16,19.9z">
+                </path>
+                <path
+                  d="M20.8,4h-9.5C7.2,4,4,7.2,4,11.2v9.5c0,4,3.2,7.2,7.2,7.2h9.5c4,0,7.2-3.2,7.2-7.2v-9.5C28,7.2,24.8,4,20.8,4z M25.7,20.8 c0,2.7-2.2,5-5,5h-9.5c-2.7,0-5-2.2-5-5v-9.5c0-2.7,2.2-5,5-5h9.5c2.7,0,5,2.2,5,5V20.8z">
+                </path>
+              </g>
+            </g>
+          </svg></a></span>
+      <span class="padding-2"><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><svg
+            width="25" height="25" fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" width="72px" height="72px" viewBox="0 0 32 32"
+            xml:space="preserve">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <path
+                  d="M17.303,14.365c0.012-0.015,0.023-0.031,0.031-0.048v0.048H17.303z M32,0v32H0V0H32L32,0z M9.925,12.285H5.153v14.354 h4.772V12.285z M10.237,7.847c-0.03-1.41-1.035-2.482-2.668-2.482c-1.631,0-2.698,1.072-2.698,2.482 c0,1.375,1.035,2.479,2.636,2.479h0.031C9.202,10.326,10.237,9.222,10.237,7.847z M27.129,18.408c0-4.408-2.355-6.459-5.494-6.459 c-2.531,0-3.664,1.391-4.301,2.368v-2.032h-4.77c0.061,1.346,0,14.354,0,14.354h4.77v-8.016c0-0.434,0.031-0.855,0.157-1.164 c0.346-0.854,1.132-1.746,2.448-1.746c1.729,0,2.418,1.314,2.418,3.246v7.68h4.771L27.129,18.408L27.129,18.408z">
+                </path>
+              </g>
+            </g>
+          </svg></a></span>
+    </div>
+
 </body>
 
 </html>
